@@ -16,53 +16,46 @@ Love-Auth is a ready-to-use authentication and user management system built with
 
 ---
 
-## 📦 Installation
+## 🛋️ Installation
 
 To install Love-Auth in your project, run:
 
 ```sh
-npm install "<path-to-your-love-auth-package>"
+npm install love-auth
 ```
 
-or, if you're using a local package:
+or using yarn:
 
 ```sh
-npm install "C:/Users/YourUser/Documents/love-auth"
-```
-
-Once installed, you can import it into your project:
-
-```js
-import loveAuth from "love-auth";
-console.log(loveAuth);
+yarn add love-auth
 ```
 
 ---
 
-## 📂 Folder Structure
+## 💂 Folder Structure
 
 ```
 project-root/
 │── config/
 │   ├── constants.js
-│   ├── dbConnection.js
+│   └── dbConnection.js
 │
 │── controllers/
-│   ├── userAuth.controller.js
+│   └── userAuth.controller.js
 │
 │── middleware/
-│   ├── auth.middleware.js
+│   └── auth.middleware.js
 │
 │── models/
-│   ├── userSchema.model.js
+│   └── userSchema.model.js
 │
 │── routes/
-│   ├── user.routes.js
+│   └── user.routes.js
 │
 │── utils/
 │   ├── apiError.js
 │   ├── apiResponse.js
-│   ├── asyncHandler.js
+│   └── asyncHandler.js
 │
 │── index.js
 │── app.js
@@ -98,7 +91,7 @@ npm install bcrypt cookie-parser cors dotenv express jsonwebtoken mongoose nodem
 
 ## ⚡ Usage
 
-### 1️⃣ Start the Application
+### 1⃣ Start the Application
 
 ```sh
 npm start
@@ -110,7 +103,7 @@ or if using **nodemon**:
 npm run dev
 ```
 
-### 2️⃣ Set Up Environment Variables
+### 2⃣ Set Up Environment Variables
 
 Create a `.env` file in your project root and configure your settings:
 
@@ -132,7 +125,7 @@ JWT_SECRET=your_jwt_secret
 
 ---
 
-## 📜 License
+## 📝 License
 
 This project is licensed under the MIT License - feel free to use and modify! 📝
 
@@ -145,4 +138,3 @@ Have suggestions or improvements? Feel free to fork and contribute!
 ---
 
 Made with ❤️ by Lovekesh Anand
-
