@@ -1,0 +1,39 @@
+{
+  "name": "love-auth",
+  "version": "1.0.0",
+  "description": "A package for user authentication which comes along with user model and user authentication. This package comes with JWT authentication for excellent security.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "auth-boilerplate": "./setup.js"
+  },
+  "scripts": {
+    "postinstall": "node scripts/setup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LovekeshAnand/love-auth.git"
+  },
+  "keywords": [
+    "love-auth"
+  ],
+  "author": "Lovekesh Anand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LovekeshAnand/love-auth/issues"
+  },
+  "homepage": "https://github.com/LovekeshAnand/love-auth#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "fs-extra": "^11.3.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
