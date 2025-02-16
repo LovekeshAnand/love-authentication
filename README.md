@@ -91,7 +91,7 @@ npm install bcrypt cookie-parser cors dotenv express jsonwebtoken mongoose nodem
 
 ## ⚡ Usage
 
-### 1⃣ Start the Application
+### 1 Start the Application
 
 ```sh
 npm start
@@ -103,7 +103,7 @@ or if using **nodemon**:
 npm run dev
 ```
 
-### 2⃣ Set Up Environment Variables
+### 2 Set Up Environment Variables
 
 Create a `.env` file in your project root and configure your settings:
 
