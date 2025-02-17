@@ -1,5 +1,3 @@
-Here’s the updated README reflecting the new name `love-authentication`:
-
 ---
 
 # LoveAuthentication 🛡️ - Authentication & User Management Package
