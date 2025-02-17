@@ -1,6 +1,6 @@
-# Love-Auth 🛡️ - Authentication & User Management Package
+# LoveAuth 🛡️ - Authentication & User Management Package
 
-Love-Auth is a ready-to-use authentication and user management system built with **Node.js, Express, and Mongoose**. It comes with essential authentication features, structured routes, and utility functions to speed up your backend development. 🚀
+LoveAuth is a ready-to-use authentication and user management system built with **Node.js, Express, and Mongoose**. It comes with essential authentication features, structured routes, and utility functions to speed up your backend development. 🚀
 
 ---
 
@@ -18,16 +18,16 @@ Love-Auth is a ready-to-use authentication and user management system built with
 
 ## 🛋️ Installation
 
-To install Love-Auth in your project, run:
+To install LoveAuth in your project, run:
 
 ```sh
-npm install love-auth
+npm install loveauth
 ```
 
 or using yarn:
 
 ```sh
-yarn add love-auth
+yarn add loveauth
 ```
 
 ---
@@ -66,7 +66,7 @@ project-root/
 
 ## 🛠️ Prerequisites
 
-Before using Love-Auth, make sure you have the following dependencies installed:
+Before using LoveAuth, make sure you have the following dependencies installed:
 
 ```json
 "dependencies": {
@@ -138,3 +138,4 @@ Have suggestions or improvements? Feel free to fork and contribute!
 ---
 
 Made with ❤️ by Lovekesh Anand
+
