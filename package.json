@@ -1,6 +1,6 @@
 {
   "name": "love-authentication",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A package for user authentication which comes along with user model and user authentication. This package comes with JWT authentication for excellent security.",
   "main": "index.js",
   "type": "module",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LovekeshAnand/love-auth.git"
+    "url": "git+https://github.com/LovekeshAnand/love-authentication.git"
   },
   "keywords": [
     "love-authentication", "loveauth", "love-auth"
@@ -20,9 +20,9 @@
   "author": "Lovekesh Anand",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LovekeshAnand/love-auth/issues"
+    "url": "https://github.com/LovekeshAnand/love-authentication/issues"
   },
-  "homepage": "https://github.com/LovekeshAnand/love-auth#readme",
+  "homepage": "https://github.com/LovekeshAnand/love-authentication#readme",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "cookie-parser": "^1.4.7",
