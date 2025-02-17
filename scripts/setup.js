@@ -5,13 +5,23 @@ import fs from "fs";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Use INIT_CWD to get the directory where npm install was run
-const destinationDir = process.env.INIT_CWD || process.cwd();
+// Get the root directory where npm install was executed
+let destinationDir = process.env.INIT_CWD || process.cwd();
 
 // Ensure the script is NOT running inside node_modules
-if (__dirname.includes("node_modules")) {
-  console.error("❌ This script should not run inside node_modules. Exiting.");
-  process.exit(1);
+if (destinationDir.includes("node_modules")) {
+  console.error("❌ This script is running inside node_modules. Moving files outside...");
+  
+  // Set destinationDir to the parent directory of node_modules (move up to the project root)
+  destinationDir = path.dirname(path.dirname(destinationDir));
+  
+  // Check if we're back in the root project directory
+  if (destinationDir.includes("node_modules")) {
+    console.error("❌ Could not move out of node_modules. Exiting.");
+    process.exit(1);
+  } else {
+    console.log(`✅ Moving files outside of node_modules to ${destinationDir}`);
+  }
 }
 
 const sourceDir = path.join(__dirname, "..", "templates");
@@ -39,8 +49,10 @@ const copyFiles = () => {
       const srcPath = path.join(sourceDir, file.src);
       const destPath = path.join(destinationDir, file.dest);
 
+      // Ensure that directories exist before copying the file
       fs.mkdirSync(path.dirname(destPath), { recursive: true });
 
+      // Copy the file if it doesn't already exist in the destination
       if (!fs.existsSync(destPath)) {
         fs.copyFileSync(srcPath, destPath);
         console.log(`✅ Copied ${file.src} to ${file.dest}`);
