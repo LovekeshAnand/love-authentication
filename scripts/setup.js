@@ -35,6 +35,7 @@ const filesToCopy = [
   { src: "index.js", dest: "index.js" },
   { src: "asyncHandler.js", dest: "utils/asyncHandler.js" },
   { src: "auth.middleware.js", dest: "middleware/auth.middleware.js" },
+  { src: "multer.middleware.js", dest: "middleware/multer.middleware.js" },
   { src: "constants.js", dest: "config/constants.js" },
   { src: "dbConnection.js", dest: "config/dbConnection.js" },
   { src: "user.routes.js", dest: "routes/user.routes.js" },

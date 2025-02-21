@@ -2,7 +2,7 @@ import { Router } from "express";
 import { loginUser, 
         registerUser, 
         logoutUser, 
-        refreshAccessToken } from "./userAuth.controller.js";
+        refreshAccessToken } from "./controllers/userAuth.controller.js";
 import { verifyJWT } from "./auth.middleware.js";
 
 

@@ -79,6 +79,7 @@ Before using LoveAuthentication, make sure you have the following dependencies i
   "express": "latest",
   "jsonwebtoken": "latest",
   "mongoose": "latest",
+  "multer": "latest",
   "nodemon": "latest"
 }
 ```
@@ -86,7 +87,7 @@ Before using LoveAuthentication, make sure you have the following dependencies i
 Install them using:
 
 ```sh
-npm install bcrypt cookie-parser cors dotenv express jsonwebtoken mongoose nodemon
+npm install bcrypt cookie-parser cors dotenv express jsonwebtoken mongoose multer nodemon
 ```
 
 ---

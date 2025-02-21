@@ -1,6 +1,6 @@
 {
   "name": "love-authentication",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "A package for user authentication which comes along with user model and user authentication. This package comes with JWT authentication for excellent security.",
   "main": "index.js",
   "type": "module",

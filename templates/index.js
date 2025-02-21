@@ -1,5 +1,5 @@
 import dotenv from "dotenv"
-import connectDB from "./dbConnection.js";  // If it's inside `templates`
+import connectDB from "./config/dbConnection.js";  // If it's inside `templates`
 import {app} from "./app.js"
 
 

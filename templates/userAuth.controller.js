@@ -1,7 +1,7 @@
-import {asyncHandler} from "./asyncHandler.js";
-import {ApiError} from "./apiError.js"
-import {User} from "./userSchema.model.js"
-import {ApiResponse} from "./apiResponse.js"
+import {asyncHandler} from "./utils/asyncHandler.js";
+import {ApiError} from "./utils/apiError.js"
+import {User} from "./models/userSchema.model.js"
+import {ApiResponse} from "./utils/apiResponse.js"
 import jwt from "jsonwebtoken";
 import mongoose from "mongoose";
 
