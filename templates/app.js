@@ -21,7 +21,7 @@ app.use(cookieParser())
 app.use(upload.none());
 
 
-//routes import
+
 import userRouter from './user.routes.js'
 
 app.use("/api/v1/users", userRouter)

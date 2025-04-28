@@ -72,15 +72,14 @@ Before using LoveAuthentication, make sure you have the following dependencies i
 
 ```json
 "dependencies": {
-  "bcrypt": "latest",
-  "cookie-parser": "latest",
-  "cors": "latest",
-  "dotenv": "latest",
-  "express": "latest",
-  "jsonwebtoken": "latest",
-  "mongoose": "latest",
-  "multer": "latest",
-  "nodemon": "latest"
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "fs-extra": "^11.3.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.10.1"
 }
 ```
 
